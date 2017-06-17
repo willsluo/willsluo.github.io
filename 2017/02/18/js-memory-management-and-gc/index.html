@@ -112,7 +112,7 @@
 <meta property="og:url" content="http://willsluo.github.io/2017/02/18/js-memory-management-and-gc/index.html">
 <meta property="og:site_name" content="Wills&#39;s Blog">
 <meta property="og:description" content="简介低级语言，比如C，有低级的内存管理基元，像 malloc()，free()。另一方面，JavaScript 的内存基元在变量（对象，字符串等等）创建时分配，然后在他们不再被使用时“自动释放”。后者被称为垃圾回收。这个“自动”是混淆并给 JavaScript （和其他高级语言）开发者一个错觉：他们可以不用考虑内存管理。">
-<meta property="og:updated_time" content="2017-06-04T00:24:38.000Z">
+<meta property="og:updated_time" content="2017-06-17T05:32:23.526Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript 内存管理 &amp; 垃圾回收机制">
 <meta name="twitter:description" content="简介低级语言，比如C，有低级的内存管理基元，像 malloc()，free()。另一方面，JavaScript 的内存基元在变量（对象，字符串等等）创建时分配，然后在他们不再被使用时“自动释放”。后者被称为垃圾回收。这个“自动”是混淆并给 JavaScript （和其他高级语言）开发者一个错觉：他们可以不用考虑内存管理。">
@@ -403,6 +403,20 @@
           
 
           
+            
+            <!--noindex-->
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/02/18/js-memory-management-and-gc/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count hc-comment-count" data-xid="2017/02/18/js-memory-management-and-gc/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+              <!--/noindex-->
+            
+          
 
           
           
@@ -587,6 +601,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="hypercomments_widget"></div>
+    
+  </div>
+
 
         </div>
         
@@ -872,6 +892,8 @@
 
 		_hcwp.push({widget:"Bloggerstream", widget_id: 92282, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
+		
+		_hcwp.push({widget:"Stream", widget_id: 92282, xid: "2017/02/18/js-memory-management-and-gc/"});
 		
 
 		(function() {
